@@ -28,7 +28,7 @@ class ServiceProviderTest extends TestCase
      */
     protected function getEnvironmentSetUp($app)
     {
-        $app['config']->set('sule/bank-statements', $this->getConfig());
+        $app['config']->set('sule.bank-statements', $this->getConfig());
     }
 
     public function setUp()

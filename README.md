@@ -1,10 +1,15 @@
 # Bank Statements Collector
-Laravel package to collect your bank statements history. Currently support for parsing statements history from **BCA**, **Mandiri**, and **BNI** e-banking websites.
+Laravel package to collect your bank statements history. Currently support for parsing statements history from **BCA**, **Mandiri**, **BNI**, and **MUAMALAT** e-banking websites.
 
 **Read and make sure you understand everything first before submiting your questions. Create a issue if you found a bug.
 
 ## Requirements
 Check the [composer.json](https://github.com/feelinc/laravel-bank-statements/blob/master/composer.json) file
+
+Support Laravel versions :
+* 5.4.*
+* 5.5.*
+* 5.6.*
     
 ## Installation
     $ php composer.phar require sule/bank-statements
@@ -72,6 +77,7 @@ Available collectors :
 - bca, url : https://ibank.klikbca.com
 - mandiri, url : https://ib.bankmandiri.co.id
 - bni-mobile, url : https://ibank.bni.co.id/MBAWeb/FMB
+- muamalat, url : https://ib.muamalatbank.com
 
 
 To start collecting (scrapping) from registered e-banking website accounts
@@ -167,7 +173,7 @@ Contributions to the Laravel Bank Statements library are very welcome
 
 ## License
 
-Intervention Image is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+Bank Statements Collector is licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 Author : [Sulaeman](https://www.sulaeman.com/)
 
